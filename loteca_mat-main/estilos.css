@@ -1,1 +1,23 @@
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+h1, h3{
+    font-size: 5em;
+    color: darkblue;
+    font-family: Impact, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 10px;
+    font-style: italic;
+    font-variant: small-caps;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-size: 3em;
+    font-style: normal;
+    color: rgb(47, 47, 253);
+    margin-top: 10px;
+}
