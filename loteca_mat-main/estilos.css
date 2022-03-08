@@ -21,3 +21,33 @@ h3{
     color: rgb(47, 47, 253);
     margin-top: 10px;
 }
+
+.selecao, .btnSort, .sorteio, .acertos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.selecao > input {
+    width: 1.5em;
+    font-size: 4em;
+    margin-right: 15px;
+    background-color: lightskyblue;
+}
+
+.btnSort > button {
+    font-size: 2em;
+    padding: 10px 20px;
+    background-color: mediumturquoise;
+}
+
+footer{
+    background-color: cadetblue;
+    height: 50px;
+    width: 100%;
+    font-size: x-large;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+}
