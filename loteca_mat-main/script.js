@@ -24,7 +24,7 @@ function getValor(valor, pos){
         alert("Número invalido, digite um entre 1 e 60")
         document.getElementById(`num${pos+1}`).value = ""
     }else if (numEsco.includes(valor)){
-        alert("Número repetido, escolha um outro número")
+        alert("Número repetido, escolha um outro númera")
         document.getElementById(`num${pos+1}`).value = ""
     }else {
         numEsco[pos] = valor
